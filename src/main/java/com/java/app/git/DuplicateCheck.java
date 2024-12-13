@@ -10,7 +10,10 @@ public class DuplicateCheck {
 		List<String> duplicateList = Arrays.asList("Sam", "Phil", "Sam");
 		List<String> filteredList = duplicateList.stream().distinct().collect(Collectors.toList());
 		//System.out.println(filteredList);
+		System.out.println("phase 2 release check");
 		return filteredList;
+		
+		
 		
 	}
 
