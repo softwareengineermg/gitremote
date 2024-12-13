@@ -12,6 +12,7 @@ public class App {
         
         DuplicateCheck check = new DuplicateCheck();
         check.checkDuplicate().forEach(System.out::println);;
+        System.out.println("Updated.......");
            
         
     }
