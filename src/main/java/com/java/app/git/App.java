@@ -9,6 +9,9 @@ public class App {
         List<Integer> list = Arrays.asList(1,2,4,5,3,5);
         List<Integer> list1 = list.stream().distinct().collect(Collectors.toList());
         System.out.println(list1);
+        
+        DuplicateCheck check = new DuplicateCheck();
+        check.checkDuplicate().forEach(System.out::println);;
            
         
     }
